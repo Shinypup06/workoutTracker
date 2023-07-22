@@ -2,3 +2,33 @@
     display:inline
 }
 
+.word{
+    font-family: Verdana;
+    font-size: 15px;
+    margin-left: 90px;
+    margin-right: 400px;
+    padding-left: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.images{
+    margin-left: 90px;
+    margin-right: 400px;
+    padding-left: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.welcome{
+    margin-top: 120px;
+    margin-left: 90px;
+    margin-right: 400px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Verdana;
+    font-size: 15px;
+    background-color: rgb(63, 63, 202);
+    text-indent: 5px;
+    color: white;
+    
+}
