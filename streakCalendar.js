@@ -8,11 +8,11 @@ localStorage.setItem("streakLog", JSON.stringify(streakLog));
 let workedOutToday = false;
 
 let sum = 0;
-
+window.onload=load()
 
 
 function logged() {
-    workedOutToday = true;
+    localStorage.setItem("workedOutToday", "true");
     streakLog[day]=1;
 
     localStorage.setItem("streakLog", JSON.stringify(streakLog));
@@ -27,4 +27,12 @@ function logged() {
     localStorage.setItem("streaktotal", sum);
     document.getElementById("dayCounter").innerHTML = "You've worked out for " + sum + " of 7 days this week!";
     document.getElementById(day).src = "streakDone.png";
+}
+
+function load(){
+    if(localStorage.getItem("workedOutToday")=="true"){
+        document.getElementById("dayCounter").innerHTML = "I have changed!";
+        document.getElementById(day).src = "streakDone.png";
+    }
+    console.log("run")
 }
