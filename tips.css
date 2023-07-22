@@ -1,4 +1,73 @@
 .potato{
+    position: absolute;
     width: 104px;
     height: 90px;
+    float: left;
+    padding-left: 15%;
+}
+
+.div1{
+    float: left;
+    font-family: Verdana;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    color: white;
+
+    padding-left: 25%;
+    
+}
+
+.div2{
+    float: left;
+    font-family: Verdana;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    color: white;
+}
+
+.div3{
+    float: left;
+    font-family: Verdana;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    color: white;
+}
+
+.div4{
+    float: left;
+    font-family: Verdana;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    color: white;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(63, 63, 202);
+    position:fixed;
+    top:20px;
+    left:0px;
+    width:100%;
 }
