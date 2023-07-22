@@ -5,14 +5,27 @@
     <link rel="stylesheet" href="yourWorkout.css">
 </head>
 <body>
-    <div> <input type = "test" id = "dataID" placeholder = "Enter Data"></div>
+
+    <div> What area will you be focusing on? <input type = "test" id = "dataID" placeholder = "Enter Data"></div>
     <button onclick = "saveData()">Save Data</button>
+    
+
+    <p>Chosen Focus: <span id = "savedData"></span></p>
+
     <script>
         function saveData(){
         var savedWorkoutType = document.getElementById("dataID").value;
         localStorage.setItem("workout", savedWorkoutType);
         console.log(localStorage.getItem("workout"));
-        }
+    }
+        window.onload = function(){
+            var savedData = localStorage.getItem("workout");
+            if(savedData){
+                document.getElementById("savedData").textContent = savedData;
+                
+            }
+        };
+        
     </script>
 </body>
 </html>
