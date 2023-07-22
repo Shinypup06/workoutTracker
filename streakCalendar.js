@@ -21,6 +21,7 @@ function logged() {
     streakLog.forEach( num => {
         sum += num;
     })
+    localStorage.setItem("sum", sum.toString())
 
     console.log(sum)
 
@@ -31,8 +32,9 @@ function logged() {
 
 function load(){
     if(localStorage.getItem("workedOutToday")=="true"){
-        document.getElementById("dayCounter").innerHTML = "You've worked out for " + sum + " of 7 days this week!";
+        document.getElementById("dayCounter").innerHTML = "You've worked out for " + localStorage.getItem("sum") + " of 7 days this week!";
         document.getElementById(day).src = "streakDone.png";
+
     }
     console.log("run")
 }
