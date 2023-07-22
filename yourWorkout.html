@@ -6,26 +6,26 @@
 </head>
 <body>
 
-    <div> What area will you be focusing on? <input type = "test" id = "dataID" placeholder = "Enter Data"></div>
+    <div> What area will you be focusing on? <input type = "text" id = "areaID" placeholder = "Enter Focus Area"></div>
+
+    <div> What exercise do you want to do first? <input type = "text" id = "ex1" placeholder = "Enter First Exercise"></div>
+    <div> How many reps of that do you want? <input type = "text" id = "reps1" placeholder = "Enter Exercise Reps"></div>
+    <div> What weight do you want to do that on? <input type = "text" id = "w1" placeholder = "Enter Exercise Weight"></div>
+    <div> How many sets do you want to do? <input type = "text" id = "set1" placeholder = "Enter Set Number"></div>
+
+    <div> What exercise do you want to do second?? <input type = "text" id = "ex2" placeholder = "Enter Second Workout"></div>
+    <div> How many reps of that do you want? <input type = "text" id = "reps2" placeholder = "Enter Exercise Reps"></div>
+    <div> What weight do you want to do that on? <input type = "text" id = "w2" placeholder = "Enter Exercise Weight"></div>
+    <div> How many sets do you want to do? <input type = "text" id = "set2" placeholder = "Enter Set Number"></div>
+
+
+    <div> What exercise do you want to do third? <input type = "text" id = "ex3" placeholder = "Enter Third Workout"></div>
+    <div> How many reps of that do you want? <input type = "text" id = "reps3" placeholder = "Enter Exercise Reps"></div>
+    <div> What weight do you want to do that on? <input type = "text" id = "w3" placeholder = "Enter Exercise Weight"></div>
+    <div> How many sets do you want to do? <input type = "text" id = "set3" placeholder = "Enter Set Number"></div>
     <button onclick = "saveData()">Save Data</button>
-    
+    <!-- <p>Chosen Focus: <span id = "savedData"></span></p> -->
 
-    <p>Chosen Focus: <span id = "savedData"></span></p>
-
-    <script>
-        function saveData(){
-        var savedWorkoutType = document.getElementById("dataID").value;
-        localStorage.setItem("workout", savedWorkoutType);
-        console.log(localStorage.getItem("workout"));
-    }
-        window.onload = function(){
-            var savedData = localStorage.getItem("workout");
-            if(savedData){
-                document.getElementById("savedData").textContent = savedData;
-                
-            }
-        };
-        
-    </script>
+    <script type="text/javascript" src="yourWorkout2.js"></script>
 </body>
 </html>
