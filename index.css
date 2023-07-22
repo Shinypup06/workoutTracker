@@ -1,7 +1,8 @@
-li {
+.streakList {
     display:inline
 }
 
 #streakCalendar {
     list-style: none;
+    display: inline;
 }
