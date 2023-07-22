@@ -5,7 +5,7 @@ let day = date.getDay().toString();
 var streakLog = Array(7).fill(0);
 localStorage.setItem("streakLog", JSON.stringify(streakLog));
 
-letworkedOutToday = false;
+let workedOutToday = false;
 
 let sum = 0;
 
@@ -25,6 +25,6 @@ function logged() {
     console.log(sum)
 
     localStorage.setItem("streaktotal", sum);
-
+    document.getElementById("dayCounter").innerHTML = "You've worked out for " + sum + " of 7 days this week!";
     document.getElementById(day).src = "streakDone.png";
 }
