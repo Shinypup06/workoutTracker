@@ -16,3 +16,14 @@ body {
 }
 
 
+.incline_bench{
+    margin-top: 0px;
+    display: inline-block;
+    color: #241616;
+    text-decoration: none;
+    width: 300px;
+    height: 200px;
+    margin-left: -10px;
+}
+
+

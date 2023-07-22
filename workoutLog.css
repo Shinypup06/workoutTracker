@@ -86,5 +86,14 @@
     padding-top: 15%;
     font-size:xx-large;
     list-style-type: none;
-
+    line-height: 170%;
+    font-weight: bold;
+    
+}
+.samples{
+    font-family: Verdana;
+    text-decoration: none;
+}
+.special{
+    padding-top: 0%;
 }
