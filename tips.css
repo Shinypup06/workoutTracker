@@ -44,8 +44,32 @@ body {
 }
 .lateral_raise{
     position: absolute;
-    top: 400px;
+    top: 450px;
     left: 75px;
+    margin-top: 0px;
+    display: inline-block;
+    color: #241616;
+    text-decoration: none;
+    width: 350px;
+    height: 250px;
+    margin-left: -10px; 
+}
+.overhead_extension{
+    position: absolute;
+    top: 450px;
+    left: 450px;
+    margin-top: 0px;
+    display: inline-block;
+    color: #241616;
+    text-decoration: none;
+    width: 350px;
+    height: 250px;
+    margin-left: -10px; 
+}
+.pullups{
+    position: absolute;
+    top: 450px;
+    left: 875px;
     margin-top: 0px;
     display: inline-block;
     color: #241616;
