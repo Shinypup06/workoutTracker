@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    
+      
 <!-- Start navbar -->
     <div>
         <ul class="navbar">
@@ -20,30 +20,35 @@
           <li class="div4"><a href = tips.html class="barButton">Workout Links</a></li>
       
         </ul>
-        <a href="./homepage.html"><img class="potato" src="mascot.png" style="width:80px; height:73px;"></a>
+        <a href="homepage.html"><img class="potato" src="Images/mascot.png" style="width:80px; height:73px;"></a>
       </div>
 <!-- end navbar -->
 
     
     <h2 class = welcome>Welcome back!</h2>
 
-
-    <div id="streakCalendarBox">
-        <h2 class = word>Weekly Workout Streak</h2>
-        <ul id="streakCalendar" class = images>
-            <li class="streakList"><img src="streakNone.png" id="0"></li>
-            <li class="streakList"><img src="streakNone.png" id="1"></li>
-            <li class="streakList"><img src="streakNone.png" id="2"></li>
-            <li class="streakList"><img src="streakNone.png" id="3"></li>
-            <li class="streakList"><img src="streakNone.png" id="4"></li>
-            <li class="streakList"><img src="streakNone.png" id="5"></li>
-            <li class="streakList"><img src="streakNone.png" id="6"></li>
-        </ul>
+    <div id="bgbox">
+        <div id="streakCalendarBox">
+            <h2 class = word>Weekly Workout Streak</h2>
+            <img src="Images/Days.png">
+            <ul id="streakCalendar" class = images>
+                <li class="streakList"><img src="Images/streakNone.png" id="0"></li>
+                <li class="streakList"><img src="Images/streakNone.png" id="1"></li>
+                <li class="streakList"><img src="Images/streakNone.png" id="2"></li>
+                <li class="streakList"><img src="Images/streakNone.png" id="3"></li>
+                <li class="streakList"><img src="Images/streakNone.png" id="4"></li>
+                <li class="streakList"><img src="Images/streakNone.png" id="5"></li>
+                <li class="streakList"><img src="Images/streakNone.png" id="6"></li>
+            </ul>
+        </div>
+    
+    <h3 id="dayCounter" class = word>You've worked out for 0 0f 7 days this week!</h3>
     </div>
 
-    <h3 id="dayCounter" class = word>You've worked out for 0 0f 7 days this week!</h3>
-
-    <button type="button" onclick="logged()" class = button>I worked out today!</button>
+    <!-- TODO: this is not actually supposed to call the logged function until you actually finish logging the workout -->
+    <a href="workoutLog.html">
+        <button type="button" onclick="logged()" class = button>Log Today's Workout</button>
+    </a>
     <script src="streakCalendar.js"></script>
 </body>
 </html>
