@@ -2,9 +2,9 @@
     position: absolute;
     width: 104px;
     height: 90px;
+    top: 0px;
     float: left;
     padding-left: 15%;
-    top: 0px;
 }
 
 .div1{
@@ -79,7 +79,12 @@
     color: white;
 }
 
+
 .listOfWorkouts{
-    padding-left: 45%;
-    padding-top: 18%;
+    font-family: Verdana;
+    text-align: center;
+    padding-top: 12%;
+    font-size:xx-large;
+    list-style-type: none;
+    
 }

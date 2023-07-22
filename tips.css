@@ -78,9 +78,17 @@
     text-decoration: none;
     color: white;
 }
-h3{
-    color: black;
-    size: 50px;
-    margin-top: 100px;
+p{
+    margin-left: 40 px
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+a {
+    margin-top: 50px;
+    display: inline-block;
+    color: #241616;
+    text-decoration: none;
 }
 
