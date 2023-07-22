@@ -9,7 +9,7 @@
     <button onclick = "saveData()">Save Data</button>
     <script>
         function saveData(){
-        var savedWorkoutType = document.getElementById("dataInput").value;
+        var savedWorkoutType = document.getElementById("dataID").value;
         localStorage.setItem("workout", savedWorkoutType);
         console.log(localStorage.getItem("workout"));
         }
