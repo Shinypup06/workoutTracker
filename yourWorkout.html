@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Workout</title>
+    <link rel="stylesheet" href="yourWorkout.css">
+</head>
+<body>
+    <div> <input type = "test" id = "dataID" placeholder = "Enter Data"></div>
+    <button onclick = "saveData()">Save Data</button>
+    <script>
+        function saveData(){
+        var savedWorkoutType = document.getElementById("dataInput").value;
+        localStorage.setItem("workout", savedWorkoutType);
+        console.log(localStorage.getItem("workout"));
+        }
+    </script>
+</body>
+</html>
