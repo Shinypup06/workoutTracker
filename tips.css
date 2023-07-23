@@ -137,6 +137,51 @@ body {
     font-size: 17px;
     font-weight: bold;
 }
+.lateralraisetext{
+    position: absolute;
+    top: 715px;
+    left: 85px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.overheadextensiontext{
+    position: absolute;
+    top: 715px;
+    left: 445px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.pullupstext{
+    position: absolute;
+    top: 715px;
+    left: 920px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.squattext{
+    position: absolute;
+    top: 1070px;
+    left: 120px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.hamstringtext{
+    position: absolute;
+    top: 1070px;
+    left: 460px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.deadlifttext{
+    position: absolute;
+    top: 1070px;
+    left: 920px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
 
 
  
