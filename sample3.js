@@ -21,7 +21,7 @@ function saveData() {
     exercise.push(document.getElementById("sets").value);
 
     workout.push(exercise);
-    localStorage.setItem("workout1", JSON.stringify(workout));
+    localStorage.setItem("workout3", JSON.stringify(workout));
 
     location.reload();
 }
@@ -54,12 +54,12 @@ function generateExercises() {
 }
 
 function starting() {
-    if (localStorage.getItem("workout1") == null) {
-        console.log("workout1 not found in local storage, making new");
+    if (localStorage.getItem("workout3") == null) {
+        console.log("workout3 not found in local storage, making new");
         workout = [];
     } else {
-        console.log("existing workout1 found, displaying data");
-        workout = JSON.parse(localStorage.getItem("workout1"));
+        console.log("existing workout3 found, displaying data");
+        workout = JSON.parse(localStorage.getItem("workout3"));
     }
 }
 
