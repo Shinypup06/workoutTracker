@@ -23,6 +23,10 @@ function saveData(){
 }
 function getSlot(){
 document.getElementById("slot0").innerHTML = "Focus: " + localStorage.getItem("workout")[0];
+document.getElementById("slot1").innerHTML =  localStorage.getItem("workout")[1];
+document.getElementById("slot2").innerHTML =  localStorage.getItem("workout")[2];
+document.getElementById("slot3").innerHTML =  localStorage.getItem("workout")[3];
+document.getElementById("slot4").innerHTML =  localStorage.getItem("workout")[4];
 }
 window.onload = function(){console.log(localStorage.getItem("workout"));}
 window.onload = getSlot();
