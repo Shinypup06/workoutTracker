@@ -116,12 +116,27 @@ body {
 }
 .benchpresstext{
     position: absolute;
-    top: 355px;
-    left: 70px;
+    top: 360px;
+    left: 85px;
+    font-size: 17px;
+    font-weight: bold;
     
 
 }
-
+.inclinebenchtext{
+    position: absolute;
+    top: 360px;
+    left: 440px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.dumbellpresstext{
+    position: absolute;
+    top: 360px;
+    left: 870px;
+    font-size: 17px;
+    font-weight: bold;
+}
 
 
  
