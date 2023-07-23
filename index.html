@@ -45,31 +45,31 @@
     
     <h3 id="dayCounter" class = word>You've worked out for 0 0f 7 days this week!</h3>
     <a href="workoutLog.html">
+        <!-- TODO: this is not actually supposed to call the logged function until you actually finish logging the workout -->
         <button type="button" onclick="logged()" class = button>Log Today's Workout</button>
     </a>
     </div>
-    
-    <div id="goalbox">
-        <div id="goalCalendarBox">
-            <h2 id="Goals">Make a fitness goal!</h2>
-            
-        </div>
-    </div>
 
-    <!-- TODO: this is not actually supposed to call the logged function until you actually finish logging the workout -->
-    
-    <script src="streakCalendar.js"></script>
+
+
     <div class="blue-box">Goals</div>
 
+    <div id="chat-window">
+        <div class="main-title">Set your Fitness Goals!</div>
+        <div id="chat-messages"></div>
+        <form id="chat-form">
+          <input
+            type="text"
+            id="chat-input"
+            autocomplete="off"
+            placeholder="Make a goal!"
+            required
+          />
+          <button type="submit">Set</button>
+        </form>
+      </div>
 
-    <div class="box">How long does this placeholder go</div>
-
-    <div class = "chatbox">
-        <input type="text" id = "chat" placeholder = "Type your goal here!">
-    </div>
-    <div class = goalButton>
-        <button type = "button" onclick = "saveGoal()" class = button>Set a goal!</button>
-    </div>
     
+    <script src="streakCalendar.js"></script>
 </body>
 </html>

@@ -1,6 +1,10 @@
 var date = new Date();
 let day = date.getDay().toString();
 
+const form = document.getElementById("chat-form");
+const input = document.getElementById("chat-input");
+const messages = document.getElementById("chat-messages");
+
 // Used local storage because there's no server/database to host our data
 var streakLog = Array(7).fill(0);
 localStorage.setItem("streakLog", JSON.stringify(streakLog));
@@ -38,3 +42,13 @@ function load(){
     }
     console.log("run")
 }
+
+
+form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const message = input.value;
+    input.value = "";
+  
+    messages.innerHTML += `<div class="message user-message"> <span> - ${message}</span>
+    </div>`;
+})
