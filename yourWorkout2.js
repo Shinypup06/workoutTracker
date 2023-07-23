@@ -1,4 +1,4 @@
-let totalWorkout = [];
+var totalWorkout = [];
 
 function saveData(){
     totalWorkout.push(document.getElementById("areaID").value);
@@ -19,24 +19,24 @@ function saveData(){
     totalWorkout.push(document.getElementById("set3").value);
     
     console.log(totalWorkout);
-    localStorage.setItem("workout", JSON.stringify(totalWorkout));
+    localStorage.setItem("workout1", JSON.stringify(totalWorkout));
 }
 function getSlot(){
-    const storedData = JSON.parse(localStorage.getItem("workout"));
+    const storedData = JSON.parse(localStorage.getItem("workout1"));
 
-    document.getElementById("slot0").innerHTML = "Focus: " + storedData[0];
-    document.getElementById("slot1").innerHTML = storedData[1];
-    document.getElementById("slot2").innerHTML = storedData[2];
-    document.getElementById("slot3").innerHTML = storedData[3];
-    document.getElementById("slot4").innerHTML = storedData[4];
-    document.getElementById("slot5").innerHTML = storedData[5];
-    document.getElementById("slot6").innerHTML = storedData[6];
-    document.getElementById("slot7").innerHTML = storedData[7];
-    document.getElementById("slot8").innerHTML = storedData[8];
-    document.getElementById("slot9").innerHTML = storedData[9];
-    document.getElementById("slot10").innerHTML = storedData[10];
-    document.getElementById("slot11").innerHTML = storedData[11];
-    document.getElementById("slot12").innerHTML = storedData[12];
+    document.getElementById("wg1").innerHTML = "Focus: " + storedData[0];
+    document.getElementById("wg1e1").innerHTML = storedData[1];
+    document.getElementById("wg1r1").innerHTML = storedData[2];
+    document.getElementById("wg1w1").innerHTML = storedData[3];
+    document.getElementById("wg1s1").innerHTML = storedData[4];
+    document.getElementById("wg1e2").innerHTML = storedData[5];
+    document.getElementById("wg1r2").innerHTML = storedData[6];
+    document.getElementById("wg1w2").innerHTML = storedData[7];
+    document.getElementById("wg1s2").innerHTML = storedData[8];
+    document.getElementById("wg1e3").innerHTML = storedData[9];
+    document.getElementById("wg1r3").innerHTML = storedData[10];
+    document.getElementById("wg1w3").innerHTML = storedData[11];
+    document.getElementById("wg1s3").innerHTML = storedData[12];
 }
 window.onload = function(){console.log(localStorage.getItem("workout"));}
 window.onload = getSlot();
