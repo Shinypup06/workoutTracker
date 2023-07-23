@@ -52,6 +52,9 @@
     float: right;
     display: inline;
     width: 300px;
+    padding-right: 9%;
+    margin-top: -.5%;
+    z-index: -1 ;
 }
 .blue-box {
     margin-top: 120px;
@@ -91,6 +94,19 @@
     color: white; /* Set the text color to white */
     text-align: center; /* Center the text horizontally */
     line-height: 100px; /* Center the text vertically */
+}
+.chatbox{
+    padding-top:50px;
+    float: right;
+    padding-left: 74%;
+    position: absolute;
+}
+.goalButton{
+    position:fixed;
+    padding-top: 5%;
+    padding-left: 76%;
+    z-index: -1;
+    
 }
 
 

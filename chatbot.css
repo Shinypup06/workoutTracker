@@ -65,7 +65,7 @@ body {
     align-items: center;
     font-style: "bold";
   }
-  .user-message img,
+  .user-message img,  
   .bot-message img {
     width: 40px; /* adjust the width of the icon */
     height: 40px; /* adjust the height of the icon */
