@@ -78,6 +78,49 @@ body {
     height: 250px;
     margin-left: -10px; 
 }
+.front_squat{
+    position: absolute;
+    top: 800px;
+    left: 75px;
+    margin-top: 0px;
+    display: inline-block;
+    color: #241616;
+    text-decoration: none;
+    width: 350px;
+    height: 250px;
+    margin-left: -10px; 
+}
+.hamstring{
+    position: absolute;
+    top: 800px;
+    left: 450px;
+    margin-top: 0px;
+    display: inline-block;
+    color: #241616;
+    text-decoration: none;
+    width: 350px;
+    height: 250px;
+    margin-left: -10px; 
+}
+.deadlift{
+    position: absolute;
+    top: 800px;
+    left: 875px;
+    margin-top: 0px;
+    display: inline-block;
+    color: #241616;
+    text-decoration: none;
+    width: 350px;
+    height: 250px;
+    margin-left: -10px; 
+}
+.benchpresstext{
+    position: absolute;
+    top: 355px;
+    left: 70px;
+    
+
+}
 
 
 

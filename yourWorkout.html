@@ -5,14 +5,61 @@
     <link rel="stylesheet" href="yourWorkout.css">
 </head>
 <body>
-    <div> <input type = "test" id = "dataID" placeholder = "Enter Data"></div>
+
+    <div> What area will you be focusing on? <input type = "text" id = "areaID" placeholder = "Enter Focus Area"></div>
+
+    <div> What exercise do you want to do first? <input type = "text" id = "ex1" placeholder = "Enter First Exercise"></div>
+    <div> How many reps of that do you want? <input type = "text" id = "reps1" placeholder = "Enter Exercise Reps"></div>
+    <div> What weight do you want to do that on? <input type = "text" id = "w1" placeholder = "Enter Exercise Weight"></div>
+    <div> How many sets do you want to do? <input type = "text" id = "set1" placeholder = "Enter Set Number"></div>
+
+    <div> What exercise do you want to do second?? <input type = "text" id = "ex2" placeholder = "Enter Second Workout"></div>
+    <div> How many reps of that do you want? <input type = "text" id = "reps2" placeholder = "Enter Exercise Reps"></div>
+    <div> What weight do you want to do that on? <input type = "text" id = "w2" placeholder = "Enter Exercise Weight"></div>
+    <div> How many sets do you want to do? <input type = "text" id = "set2" placeholder = "Enter Set Number"></div>
+
+
+    <div> What exercise do you want to do third? <input type = "text" id = "ex3" placeholder = "Enter Third Workout"></div>
+    <div> How many reps of that do you want? <input type = "text" id = "reps3" placeholder = "Enter Exercise Reps"></div>
+    <div> What weight do you want to do that on? <input type = "text" id = "w3" placeholder = "Enter Exercise Weight"></div>
+    <div> How many sets do you want to do? <input type = "text" id = "set3" placeholder = "Enter Set Number"></div>
     <button onclick = "saveData()">Save Data</button>
-    <script>
-        function saveData(){
-        var savedWorkoutType = document.getElementById("dataID").value;
-        localStorage.setItem("workout", savedWorkoutType);
-        console.log(localStorage.getItem("workout"));
-        }
-    </script>
+    
+    <div> <h3 id = "slot0"></h3></div>
+    <table>
+        Your Workout! 
+       
+        <div class = "titles">
+            
+               
+            
+            <div><th>
+                Exervise Name
+                Number of Reps
+                Weight (lbs)
+                Number of Sets
+            </th>
+        </div>
+            <tr>
+                <div><td id = "slot1"></td></div>
+                <div><td id = "slot2"></td></div>
+                <div><td id = "slot3"></td></div>
+                <div><td id = "slot4"></td></div>
+            </tr>
+            <tr>
+                <div><td id = "slot5"></td></div>
+                <div><td id = "slot6"></td></div>
+                <div><td id = "slot7"></td></div>
+                <div><td id = "slot8"></td></div>
+            </tr>
+                <div><td id = "slot9"></td></div>
+                <div><td id = "slot10"></td></div>
+                <div><td id = "slot11"></td></div>
+                <div><td id = "slot12"></td></div>
+            
+        </div>
+    </table>
+
+    <script type="text/javascript" src="yourWorkout2.js"></script>
 </body>
 </html>
