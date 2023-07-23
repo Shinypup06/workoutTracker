@@ -16,13 +16,11 @@ body {
     height: 250px;
     margin-left: -10px;
     border-radius: 10px;
-    border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: filter 0.3s ease;
 
 }
 .bench_press:hover{
-    color: blue;
     filter: brightness(80%);
 }
 
@@ -30,7 +28,7 @@ body {
 .incline_bench{
     position: absolute;
     top: 100px;
-    left: 450px;
+    left: 475px;
     margin-top: 0px;
     display: inline-block;
     color: #241616;
@@ -39,7 +37,11 @@ body {
     height: 250px;
     margin-left: -10px;
     border-radius: 10px;
-
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: filter 0.3s ease;
+}
+.incline_bench:hover{
+    filter: brightness(80%);
 }
 .dumbbell_press{
     position: absolute;
@@ -53,7 +55,11 @@ body {
     height: 250px;
     margin-left: -10px; 
     border-radius: 10px;
-
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: filter 0.3s ease;
+}
+.dumbbell_press:hover{
+    filter: brightness(80%);
 }
 .lateral_raise{
     position: absolute;
@@ -67,12 +73,16 @@ body {
     height: 250px;
     margin-left: -10px; 
     border-radius: 10px;
-
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: filter 0.3s ease;
+}
+.lateral_raise:hover{
+    filter: brightness(80%);
 }
 .overhead_extension{
     position: absolute;
     top: 450px;
-    left: 450px;
+    left: 475px;
     margin-top: 0px;
     display: inline-block;
     color: #241616;
@@ -81,7 +91,12 @@ body {
     height: 250px;
     margin-left: -10px; 
     border-radius: 10px;
-
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: filter 0.3s ease;
+    
+}
+.overhead_extension:hover{
+    filter: brightness(80%);
 }
 .pullups{
     position: absolute;
@@ -95,7 +110,11 @@ body {
     height: 250px;
     margin-left: -10px; 
     border-radius: 10px;
-
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: filter 0.3s ease;
+}
+.pullups:hover{
+    filter: brightness(80%);
 }
 .front_squat{
     position: absolute;
@@ -109,12 +128,16 @@ body {
     height: 250px;
     margin-left: -10px; 
     border-radius: 10px;
-
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: filter 0.3s ease;
+}
+.front_squat:hover{
+    filter: brightness(80%);
 }
 .hamstring{
     position: absolute;
     top: 800px;
-    left: 450px;
+    left: 475px;
     margin-top: 0px;
     display: inline-block;
     color: #241616;
@@ -123,7 +146,11 @@ body {
     height: 250px;
     margin-left: -10px; 
     border-radius: 10px;
-
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: filter 0.3s ease;
+}
+.hamstring:hover{
+    filter: brightness(80%);
 }
 .deadlift{
     position: absolute;
@@ -137,6 +164,11 @@ body {
     height: 250px;
     margin-left: -10px; 
     border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: filter 0.3s ease;
+}
+.deadlift:hover{
+    filter: brightness(80%);
 
 }
 .benchpresstext{
@@ -151,7 +183,7 @@ body {
 .inclinebenchtext{
     position: absolute;
     top: 360px;
-    left: 440px;
+    left: 460px;
     font-size: 17px;
     font-weight: bold;
 }
@@ -172,7 +204,7 @@ body {
 .overheadextensiontext{
     position: absolute;
     top: 715px;
-    left: 445px;
+    left: 465px;
     font-size: 17px;
     font-weight: bold;
 }
@@ -193,7 +225,7 @@ body {
 .hamstringtext{
     position: absolute;
     top: 1070px;
-    left: 460px;
+    left: 490px;
     font-size: 17px;
     font-weight: bold;
 }
