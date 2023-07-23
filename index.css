@@ -49,3 +49,19 @@
     display: inline;
     width: 300px;
 }
+.blue-box {
+    width: 200px; /* Set the width of the box */
+    height: 100px; /* Set the height of the box */
+    background-color: rgb(63, 63, 202); /* Set the background color to blue */
+    color: white; /* Set the text color to white */
+    text-align: center; /* Center the text horizontally */
+    line-height: 100px; /* Center the text vertically */
+    width: 300px;
+    margin-top: 50%;
+    margin: 70%;
+    background-color: rgb(63, 63, 202);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 70px;
+    position:fixed;
+}
