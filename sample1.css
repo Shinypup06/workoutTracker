@@ -22,13 +22,11 @@
 .vals{
     /*margin-left: 77px;*/
     width: auto;
-    border-radius: 100px;
     font-family: Verdana;
     font-size: 15px;
     text-align: center;
-    background-color: rgb(63, 63, 202);
+    background-color: rgb(146, 146, 242);
     color: white;
-    border-radius: 0;
     padding-right: 20px;
     padding-left: 20px;
     margin-right: 40;
@@ -36,11 +34,7 @@
     padding-bottom: 5px;
     border: solid;
     border-width: 2px;
-    border-color: black;
 }
-
-
-
 
 .shoulderPress{
     margin-left: 125px;
@@ -67,6 +61,43 @@
     margin-right: 38px;
     width: 30px;
     border-radius: 100px;
+}
+
+#newE{
+    text-align: center;
+    margin-left: 125px;
+    margin-right: 525px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana;
+    font-size: 15px;
+    background-color: rgb(146, 146, 242);
+    text-indent: 5px;
+    color: white;
+    border-radius: 20px;
+}
+#newEx{
+    text-align: center;
+    text-decoration:none;
+    font-family: Verdana;
+    font-size: 15px;
+    background-color: rgb(146, 146, 242);
+    text-indent: 5px;
+    color: white;
+    border-radius: 20px;
+}
+
+#name{
+    width:120px;
+    margin-right: 50px;
+    border-radius: 30px;
+    
+}
+
+#button{
+    color: blue;
+    width: 50px;
+    
 }
 
 li {
