@@ -25,13 +25,25 @@
 
 var workoutGroups;
 
-if (localStorage.getItem("workoutGroups") == null) {
-    workoutGroups = [];
-} else {
-    workoutGroups = localStorage.getItem("workoutGroups");
-}
+// if (localStorage.getItem("workoutGroups") == null) {
+//     workoutGroups = [];
+//     console.log("localStorage found no workoutGroups existing, created new");
+// } else {
+//     workoutGroups = localStorage.getItem("workoutGroups");
+//     console.log("localStorage found existing workoutGroups");
+//     console.log(JSON.stringify(workoutGroups));
+// }
 
 function saveData() {
+    if (localStorage.getItem("workoutGroups") == null) {
+        workoutGroups = [];
+        console.log("localStorage found no workoutGroups existing, created new");
+    } else {
+        workoutGroups = JSON.parse(localStorage.getItem("workoutGroups"));
+        console.log("localStorage found existing workoutGroups");
+        console.log(JSON.stringify(workoutGroups));
+    }
+
     workoutGroups.push(
         {
             workoutGroupType: document.getElementById("areaID").value,
@@ -58,7 +70,9 @@ function saveData() {
         }
     )
 
-    localStorage.setItem("workoutGroups", workoutGroups);
+    localStorage.setItem("workoutGroups", JSON.stringify(workoutGroups));
+    console.log("Data saved.");
+    console.log(JSON.stringify(workoutGroups));
 }
 
 function printWorkouts() {
