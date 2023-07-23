@@ -15,6 +15,15 @@ body {
     width: 350px;
     height: 250px;
     margin-left: -10px;
+    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: filter 0.3s ease;
+
+}
+.bench_press:hover{
+    color: blue;
+    filter: brightness(80%);
 }
 
 
@@ -29,6 +38,8 @@ body {
     width: 350px;
     height: 250px;
     margin-left: -10px;
+    border-radius: 10px;
+
 }
 .dumbbell_press{
     position: absolute;
@@ -41,6 +52,8 @@ body {
     width: 350px;
     height: 250px;
     margin-left: -10px; 
+    border-radius: 10px;
+
 }
 .lateral_raise{
     position: absolute;
@@ -53,6 +66,8 @@ body {
     width: 350px;
     height: 250px;
     margin-left: -10px; 
+    border-radius: 10px;
+
 }
 .overhead_extension{
     position: absolute;
@@ -65,6 +80,8 @@ body {
     width: 350px;
     height: 250px;
     margin-left: -10px; 
+    border-radius: 10px;
+
 }
 .pullups{
     position: absolute;
@@ -77,6 +94,8 @@ body {
     width: 350px;
     height: 250px;
     margin-left: -10px; 
+    border-radius: 10px;
+
 }
 .front_squat{
     position: absolute;
@@ -89,6 +108,8 @@ body {
     width: 350px;
     height: 250px;
     margin-left: -10px; 
+    border-radius: 10px;
+
 }
 .hamstring{
     position: absolute;
@@ -101,6 +122,8 @@ body {
     width: 350px;
     height: 250px;
     margin-left: -10px; 
+    border-radius: 10px;
+
 }
 .deadlift{
     position: absolute;
@@ -113,6 +136,8 @@ body {
     width: 350px;
     height: 250px;
     margin-left: -10px; 
+    border-radius: 10px;
+
 }
 .benchpresstext{
     position: absolute;

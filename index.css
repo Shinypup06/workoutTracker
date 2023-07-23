@@ -90,7 +90,9 @@
     text-align: left;
     width: 310px; /* Set the width of the box */
     height: 310px; /* Set the height of the box */
-    background-color: rgb(63, 63, 202); /* Set the background color to blue */
+    background-color: rgb(243, 243, 243);/* Set the background color to gray */
+   /* Set the background color to blue */
+
     color: white; /* Set the text color to white */
     text-align: center; /* Center the text horizontally */
     line-height: 100px; /* Center the text vertically */
