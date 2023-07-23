@@ -1,5 +1,6 @@
 .streakList {
-    display:inline
+    display:inline;
+    
 }
 
 .word{
@@ -20,8 +21,8 @@
 
 .welcome{
     margin-top: 120px;
-    margin-left: 90px;
-    margin-right: 350px;
+    margin-left: 40px;
+    margin-right: 400px;
     padding-left: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -30,14 +31,67 @@
     background-color: rgb(63, 63, 202);
     text-indent: 5px;
     color: white;
+    border-radius: 10px;
+
     
 }
 
+
 #bgbox{
     background-color: rgb(243, 243, 243);
-    margin-left: 90px;
-    margin-right: 350px;
+    margin-left: 40px;
+    margin-right: 400px;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 10px;
+
 }
+
+#goalbox{
+    float: right;
+    display: inline;
+    width: 300px;
+}
+.blue-box {
+    margin-top: 120px;
+    margin-left: 40px;
+    margin-right: 400px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana;
+    font-size: 30px;
+    background-color: rgb(63, 63, 202);
+    color: white;
+    margin-top: 50%;
+    margin: 70%;
+    top: 50px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 70px;
+    position:fixed;
+    font-weight: bold;
+    text-align: left;
+
+}
+ .box{
+    margin-top: 50%;
+    margin: 70%;
+    top: 50px;
+    
+    border-radius: 10px;
+    margin-top: 152px;
+    position:fixed;
+    font-weight: bold;
+    text-align: left;
+    width: 310px; /* Set the width of the box */
+    height: 310px; /* Set the height of the box */
+    background-color: rgb(63, 63, 202); /* Set the background color to blue */
+    color: white; /* Set the text color to white */
+    text-align: center; /* Center the text horizontally */
+    line-height: 100px; /* Center the text vertically */
+}
+
+
+
