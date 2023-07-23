@@ -1,7 +1,7 @@
 const form = document.getElementById("chat-form");
 const input = document.getElementById("chat-input");
 const messages = document.getElementById("chat-messages");
-const apiKey = " ";
+const apiKey = "";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -16,10 +16,10 @@ form.addEventListener("submit", async (e) => {
   const response = await axios.post(
     "https://api.openai.com/v1/completions",
     {
-      prompt: message,
+      prompt: " You are potatobot. You are a potato and a personal fitness trainer that was built to answer fitness questions . Please resond accordingly: " + message,
       model: "text-davinci-003",
-      temperature: 0,
-      max_tokens: 1000,
+      temperature: 0.2,
+      max_tokens: 500,
       top_p: 1,
       frequency_penalty: 0.0,
       presence_penalty: 0.0,

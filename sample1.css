@@ -7,145 +7,69 @@
     padding-left: 15%;
 }
 
-.div1{
-    float: left;
-    font-family: Verdana;
-    font-size: 15px;
-    text-decoration: none;
-    letter-spacing: 1px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: bolder;
-    color: white;
-    z-index: 100000;
-    padding-left: 25%;
-    
-}
-
-.div2{
-    float: left;
-    font-family: Verdana;
-    font-size: 15px;
-    text-decoration: none;
-    letter-spacing: 1px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: bolder;
-    color: white;
-    z-index: 100000;
-}
-
-.div3{
-    float: left;
-    font-family: Verdana;
-    font-size: 15px;
-    text-decoration: none;
-    letter-spacing: 1px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: bolder;
-    color: white;
-    z-index: 100000;
-}
-
-.div4{
-    float: left;
-    font-family: Verdana;
-    font-size: 15px;
-    text-decoration: none;
-    letter-spacing: 1px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: bolder;
-    color: white;
-    z-index: 100000;
-}
-
-.div5{
-    float: left;
-    font-family: Verdana;
-    font-size: 15px;
-    text-decoration: none;
-    letter-spacing: 1px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: bolder;
-    color: white;
-}
-
-.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(63, 63, 202);
-    position:fixed;
-    top:20px;
-    left:0px;
-    width:100%;
-}
-.barButton{
-    font-family: Verdana;
-    font-size: 15px;
-    text-decoration: none;
-    color: white;
-}
 /* Taskbar End */
-.texts{
+
+
+#shoulder{
+    margin-top: 120px;
+    margin-left: 134px;
+    margin-right: 80px;
     font-family: Verdana;
-    font-weight: bolder;
-    box-sizing: border-box;
-    position:static;
+    font-size: 20px;
+    font-weight: 900;
 }
 
-.titleBar{
-    float: right;
-    padding-top: 13%;
-    position: relative;
-    padding-right: 20%;
+.vals{
+    /*margin-left: 77px;*/
+    width: auto;
+    border-radius: 100px;
+    font-family: Verdana;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(63, 63, 202);
+    color: white;
+    border-radius: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 40;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
 }
 
-.workoutFocus{
-    float: left;
-    padding-top: 30%;
-    padding-left: 29%;
-    position:relative;
-    z-index: -1;
+
+
+
+.shoulderPress{
+    margin-left: 125px;
+    margin-right: 525px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana;
+    font-size: 15px;
+    background-color: rgb(214, 214, 223);
+    text-indent: 5px;
+    color: black;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
 }
 
-.reqReps{
-    float:left;
-    padding-top: 30%;
-    padding-left: 7%;
-    position:absolute;
-    z-index: -1;
+.exercise{
+    margin-left: 0px;
+    margin-right: 100px;
 }
 
-.reqWeight{
-    position:absolute;
-    float: left;
-    padding-left: 7%;
-    padding-top: 13%;
-    z-index: -1;
+
+.num{
+    margin-right: 38px;
+    width: 30px;
+    border-radius: 100px;
 }
 
-.reqSets{
-    z-index: -1;
-    padding-top: 13%;
-    padding-left: 29%;
-    position:absolute;
-    float:left
-    
-}
-
-.potat2{
-    position:fixed;
-    padding-top: 20%;
-    padding-left:24%;
-    z-index: -1;
-}
+li {
+    display: inline-block;
+    margin: 0 10px;
+  }
