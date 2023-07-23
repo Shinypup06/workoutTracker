@@ -94,10 +94,14 @@
     
 }
 
-#button{
+.butt{
     color: blue;
     width: 50px;
     
+}
+
+.entered{
+    color: brown;
 }
 
 li {

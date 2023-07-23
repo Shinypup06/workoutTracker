@@ -7,8 +7,8 @@ function addNewExercise() {
         <li><input type="text" class="num" id="reps"></li>
         <li><input type="text" class="num" id="weight"></li>
         <li><input type="text" class="num" id="sets"></li>
-        <li><input type="button" class = "num" onClick = "saveData()"></li>
     </ul>
+        <input type="button" class = "butt" onClick = "saveData()">
     `;
     document.getElementById("wk").innerHTML += html;
 }
@@ -34,9 +34,9 @@ function generateExercises() {
         var html = `
         <ul class="shoulderPress">
             <li class="exercise">${exercise[0]}</li>
-            <li><class="num">${exercise[1]}</li>
-            <li><class="num">${exercise[2]}</li>
-            <li><class="num">${exercise[3]}</li>
+            <li><class="entered">${exercise[1]}</li>
+            <li><class="entered">${exercise[2]}</li>
+            <li><class="emtered">${exercise[3]}</li>
         </ul>
         `;
         document.getElementById("wk").innerHTML += html;
