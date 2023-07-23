@@ -28,7 +28,7 @@ body {
 .incline_bench{
     position: absolute;
     top: 100px;
-    left: 450px;
+    left: 475px;
     margin-top: 0px;
     display: inline-block;
     color: #241616;
@@ -82,7 +82,7 @@ body {
 .overhead_extension{
     position: absolute;
     top: 450px;
-    left: 450px;
+    left: 475px;
     margin-top: 0px;
     display: inline-block;
     color: #241616;
@@ -93,6 +93,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: filter 0.3s ease;
+    
 }
 .overhead_extension:hover{
     filter: brightness(80%);
@@ -136,7 +137,7 @@ body {
 .hamstring{
     position: absolute;
     top: 800px;
-    left: 450px;
+    left: 475px;
     margin-top: 0px;
     display: inline-block;
     color: #241616;
@@ -182,7 +183,7 @@ body {
 .inclinebenchtext{
     position: absolute;
     top: 360px;
-    left: 440px;
+    left: 460px;
     font-size: 17px;
     font-weight: bold;
 }
@@ -203,7 +204,7 @@ body {
 .overheadextensiontext{
     position: absolute;
     top: 715px;
-    left: 445px;
+    left: 465px;
     font-size: 17px;
     font-weight: bold;
 }
@@ -224,7 +225,7 @@ body {
 .hamstringtext{
     position: absolute;
     top: 1070px;
-    left: 460px;
+    left: 490px;
     font-size: 17px;
     font-weight: bold;
 }
