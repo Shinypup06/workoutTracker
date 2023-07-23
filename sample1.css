@@ -11,9 +11,9 @@
 
 
 #shoulder{
-    margin-top: 120px;
-    margin-left: 134px;
-    margin-right: 80px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 9%;
     font-family: Verdana;
     font-size: 20px;
     font-weight: 900;
@@ -27,24 +27,23 @@
     text-align: center;
     background-color: rgb(146, 146, 242);
     color: white;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: 40;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-right: 1.6%;
+    padding-left: 1.6%;
+    margin-right: 1%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
     border: solid;
     border-width: 2px;
 }
 
 .shoulderPress{
-    margin-left: 105px;
-    margin-right: 525px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-left: 9%;
+    margin-right: 41%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
     font-family: Verdana;
     font-size: 15px;
     background-color: rgb(214, 214, 223);
-    text-indent: 5px;
     color: black;
     border: solid;
     border-width: 2px;
@@ -52,27 +51,19 @@
 }
 
 .exercise{
-    margin-left: 0px;
-    margin-right: 100px;
+    margin-right: 22%;
 }
 
-
-.num{
-    margin-right: 38px;
-    width: 30px;
-    border-radius: 100px;
-}
 
 #newE{
     text-align: center;
-    margin-left: 125px;
-    margin-right: 525px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-left: 9%;
+    margin-right: 41%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
     font-family: Verdana;
     font-size: 15px;
     background-color: rgb(146, 146, 242);
-    text-indent: 5px;
     color: white;
     border-radius: 20px;
 }
@@ -82,14 +73,13 @@
     font-family: Verdana;
     font-size: 15px;
     background-color: rgb(146, 146, 242);
-    text-indent: 5px;
     color: white;
     border-radius: 20px;
 }
 
 #name{
-    width:120px;
-    margin-right: 77px;
+    width:105px;
+    margin-right: 105px;
     border-radius: 30px;
     text-align: center;
 }
