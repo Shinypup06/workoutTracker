@@ -1,7 +1,7 @@
 const form = document.getElementById("chat-form");
 const input = document.getElementById("chat-input");
 const messages = document.getElementById("chat-messages");
-const apiKey = "";
+const apiKey = "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";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -12,7 +12,6 @@ form.addEventListener("submit", async (e) => {
   <img src="Images/user.png" alt="user icon"> <span>${message}</span>
   </div>`;
 
-  // Use axios library to make a POST request to the OpenAI API
   const response = await axios.post(
     "https://api.openai.com/v1/completions",
     {
