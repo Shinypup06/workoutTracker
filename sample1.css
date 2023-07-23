@@ -37,7 +37,7 @@
 }
 
 .shoulderPress{
-    margin-left: 125px;
+    margin-left: 105px;
     margin-right: 525px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -89,15 +89,40 @@
 
 #name{
     width:120px;
-    margin-right: 50px;
+    margin-right: 77px;
     border-radius: 30px;
-    
+    text-align: center;
 }
 
-#button{
-    color: blue;
-    width: 50px;
-    
+#reps{
+    width:50px;
+    margin-right: 25px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#weight{
+    width:50px;
+    margin-right: 25px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#sets{
+    width:50px;
+    margin-right: 0px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.butt{
+    width: 50px; 
+    margin-left: 175px;
+    background-color: rgb(214, 214, 223);
+}
+
+.entered{
+    color: brown;
 }
 
 li {

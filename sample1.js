@@ -3,16 +3,16 @@ var workout;
 function addNewExercise() {
     var html = `
     <ul class="shoulderPress">
-        <li><input type="text" id="name"></li>
-        <li><input type="text" class="num" id="reps"></li>
-        <li><input type="text" class="num" id="weight"></li>
-        <li><input type="text" class="num" id="sets"></li>
-        <li><input type="button" class = "num" onClick = "saveData()"></li>
+        <li><input type="text" class="names" id="name"></li>
+        <li><input type="text" class="rep" id="reps"></li>
+        <li><input type="text" class="lbs" id="weight"></li>
+        <li><input type="text" class="set" id="sets"></li>
     </ul>
+        <button type = button class = butt onClick = "saveData()">save</button>    
     `;
     document.getElementById("wk").innerHTML += html;
 }
-
+//<input type="button" class = "butt" onClick = "saveData()"> instead of button
 function saveData() {
     var exercise = [];
     exercise.push(document.getElementById("name").value);
