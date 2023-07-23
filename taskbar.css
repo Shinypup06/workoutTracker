@@ -61,6 +61,20 @@
     font-weight: bolder;
     color: white;
 }
+
+.div5{
+    float: left;
+    font-family: Verdana;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    color: white;
+}
+
 .navbar {
     list-style-type: none;
     margin: 0;

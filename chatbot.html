@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Buff Potatobot</title>
+    <link rel="stylesheet" type="text/css" href="chatbot.css" />
+    <link rel="stylesheet" href="taskbar.css">
+  </head>
+  <body>
+
+    <!-- Start navbar -->
+    <div>
+        <ul class="navbar">
+
+        <li class="div1"><a href = index.html class="barButton">Homepage</a></li>
+        <li class="div2"><a href = workoutGenerator.html class="barButton">Workout Generator</a></li>
+        <li class="div3"><a href = workoutLog.html class = "barButton"> Workout Log</a></li>
+        <li class="div4"><a href = tips.html class="barButton">Workout Links</a></li>
+        <li class="div5"><a href = chatbot.html class="barButton">PotatoBot</a></li>
+        </ul>
+        <a href="homepage.html"><img class="potato" src="Images/mascot.png" style="width:80px; height:73px;"></a>
+    </div>
+    <!-- end navbar -->
+    <ul id="content">
+      <li class="element">
+        <div id="description">
+          <h2 class="">What is PotatoBot?</h2>
+          <p>PotatoBot is an AI chatbot built to help you on your fitness journey! It is trained to answer anything, from "build me a 30 minute cardio workout", to "how are you doing today?" to "give me a list of core exercises". Ask away!</p>
+          <br>
+          <h2>How was this built?</h2>
+          <p>PotatoBot was built using OpenAI API. Currently, the bot is based on DaVinci-003 text model. Since requests to OpenAI's API cannot be made directly, we route our requests through Axios, an HTTP client.</p>
+        
+        </div>
+          
+      </li>
+
+      <li class="element">
+        <div id="chat-window">
+          <div class="main-title">PotatoBot: Your personal fitness advisor!</div>
+          <div id="chat-messages"></div>
+          <form id="chat-form">
+            <input
+              type="text"
+              id="chat-input"
+              autocomplete="off"
+              placeholder="Type your message here"
+              required
+            />
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </li>
+    </ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+    <script src="chatbot.js"></script>
+  </body>
+</html>
