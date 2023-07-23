@@ -85,12 +85,15 @@
     margin-right: 40%;
     font-family: Verdana;
     padding-top: 20px;
-    padding-left: 15%;
+    padding-left: 2%;
+    padding-bottom: 20px;
     font-size:large;
     list-style-type: none;
     line-height: 170%;
     font-weight: bold;
     background-color: rgb(214, 214, 223);
+    text-align: left;
+    
     
 }
 .samples{
@@ -118,4 +121,12 @@
     color: white;
     padding: 5px;
     border: solid;
+}
+.potat{
+max-width: 100%;
+position: absolute;
+width: 250px;
+height: 250px;
+top: 100px;
+left: 710px;
 }

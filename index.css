@@ -32,7 +32,7 @@
     text-indent: 5px;
     color: white;
     border-radius: 10px;
-
+    width:62%;
     
 }
 
@@ -45,13 +45,13 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
-
+    width: 64%;
 }
 
 #goalbox{
     float: right;
     display: inline;
-    width: 300px;
+    width: 25%;
     padding-right: 9%;
     margin-top: -.5%;
     z-index: -1 ;
@@ -70,38 +70,39 @@
     margin-top: 50%;
     margin: 70%;
     top: 50px;
-    width: 300px;
+    width: 25%;
     border-radius: 10px;
     margin-top: 70px;
-    position:fixed;
+    position:absolute;
     font-weight: bold;
     text-align: left;
 
 }
- .box{
+
+
+ #goals-window{
     margin-top: 50%;
     margin: 70%;
     top: 50px;
-    
+    align-items: center;
     border-radius: 10px;
     margin-top: 152px;
-    position:fixed;
+    position:absolute;
     font-weight: bold;
     text-align: left;
-    width: 310px; /* Set the width of the box */
-    height: 310px; /* Set the height of the box */
-    background-color: rgb(243, 243, 243);/* Set the background color to gray */
-   /* Set the background color to blue */
+    width: 25%; /* Set the width of the box */
+    height: 450px; /* Set the height of the box */
 
-    color: white; /* Set the text color to white */
     text-align: center; /* Center the text horizontally */
-    line-height: 100px; /* Center the text vertically */
+
 }
-.chatbox{
-    padding-top:50px;
-    float: right;
-    padding-left: 74%;
-    position: absolute;
+/* .chatbox{
+    align-self: center;
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
 }
 .goalButton{
     position:fixed;
@@ -109,7 +110,77 @@
     padding-left: 76%;
     z-index: -1;
     
-}
+} */
 
 
+#chat-window {
+    /* width: 500px;
+    margin: 45%;*/
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 70px;
 
+    margin-top: 50%;
+    margin: 70%;
+    top: 50px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 152px;
+    position: absolute;
+    font-weight: bold;
+    text-align: left;
+    width: 23%; /* Set the width of the box */
+
+  }
+  
+  #chat-messages {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cccccc;
+    height: calc(70vh - 200px);
+    max-height: calc(70vh - 200px);
+    overflow: auto;
+  }
+  
+  #chat-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  #chat-input {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #f7efe5;
+    color: #674188;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  
+  .user-message {
+    font-family: "Nunito", sans-serif;
+    background-color: #ffffff; /* light color */
+    text-align: left; /* changed text align to left */
+    padding: 15px; /* added padding */
+    display: flex;
+    align-items: center;
+  }
+
+  .main-title {
+    font-size: 15;
+    text-align: center;
+    font-family: "Verdana";
+    margin-top:20px;
+    margin-bottom: 0.5rem;
+    color: black;
+  }
