@@ -21,4 +21,8 @@ function saveData(){
     console.log(totalWorkout);
     localStorage.setItem("workout", totalWorkout);
 }
+function getSlot(){
+document.getElementById("slot0").innerHTML = "Focus: " + localStorage.getItem("workout")[0];
+}
 window.onload = function(){console.log(localStorage.getItem("workout"));}
+window.onload = getSlot();
