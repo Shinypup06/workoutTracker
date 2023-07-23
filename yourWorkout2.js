@@ -1,4 +1,4 @@
-var totalWorkout = [];
+let totalWorkout = [];
 
 function saveData(){
     totalWorkout.push(document.getElementById("areaID").value);
@@ -19,14 +19,16 @@ function saveData(){
     totalWorkout.push(document.getElementById("set3").value);
     
     console.log(totalWorkout);
-    localStorage.setItem("workout", totalWorkout);
+    localStorage.setItem("workout", JSON.stringify(totalWorkout));
 }
 function getSlot(){
-document.getElementById("slot0").innerHTML = "Focus: " + localStorage.getItem("workout")[0];
-document.getElementById("slot1").innerHTML =  localStorage.getItem("workout")[1];
-document.getElementById("slot2").innerHTML =  localStorage.getItem("workout")[2];
-document.getElementById("slot3").innerHTML =  localStorage.getItem("workout")[3];
-document.getElementById("slot4").innerHTML =  localStorage.getItem("workout")[4];
+    const storedData = JSON.parse(localStorage.getItem("workout"));
+
+    document.getElementById("slot0").innerHTML = "Focus: " + storedData[0];
+    document.getElementById("slot1").innerHTML = storedData[1];
+    document.getElementById("slot2").innerHTML = storedData[2];
+    document.getElementById("slot3").innerHTML = storedData[3];
+    document.getElementById("slot4").innerHTML = storedData[4];
 }
 window.onload = function(){console.log(localStorage.getItem("workout"));}
 window.onload = getSlot();
